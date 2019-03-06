@@ -1,0 +1,9 @@
+{
+  "name": "drx-site",
+  "version": "1.0.0",
+  "description": "Dreeks' website",
+  "main": "index.js",
+  "repository": "https://github.com/dreeks/dreeks-website",
+  "author": "Nathan JANCZEWSKI <nathan@janczewski.fr>",
+  "license": "GPLv3"
+}
