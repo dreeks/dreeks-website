@@ -1,9 +1,131 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Getting Started</title>
-  </head>
-  <body>
-    <script src="main.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dreeks Homepage</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <section class="hero is-success is-fullheight">
+    <div class="hero-head">
+      <header class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <img src="assets/logo.png" alt="Logo">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroC" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-active" href="#home">
+                Home
+              </a>
+              <a class="navbar-item" href="#about_us">
+                Abous us
+              </a>
+              <a class="navbar-item">
+                Projects
+              </a>
+              <a class="navbar-item">
+                Minecraft mods
+              </a>
+              <span class="navbar-item">
+                <a class="button is-success is-inverted" href="https://github.com/dreeks">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              </span>
+              <span class="navbar-item">
+                <a class="button is-success is-inverted" href="https://twitter.com/team_dreeks">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div id="home" class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          Team Dreeks
+        </h1>
+        <h2 class="subtitle">
+          Weird stuff and fun projects
+        </h2>
+      </div>
+    </div>
+
+    <div class="columns hero-foot has-text-centered go-down">
+      <div class="container">
+        <a href="#about_us" class="icon"><i class="fas fa-arrow-circle-down"></i></a>
+      </div>
+    </div>
+  </section>
+  <section id="about_us" class="hero is-dark is-fullheight">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Cylgom
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="content has-text-centered">
+                <img src="assets/cylgom.png" alt="logo cylgom" />
+                <p>student, demofan, developer</p>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="https://twitter.com/cylgom" class="card-footer-item">Twitter</a>
+              <a href="https://cylgom.net/" class="card-footer-item">Website</a>
+              <a href="https://github.com/cylgom" class="card-footer-item">Github</a>
+            </footer>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Oxodao
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="content has-text-centered">
+                <img src="assets/oxodao.png" alt="logo oxodao">
+                <p>
+                  Web dev that loves to poke around with everything. Doing weird stuff for fun
+                </p>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="https://twitter.com/oxodao" class="card-footer-item">Twitter</a>
+              <a href="https://oxodao.fr/" class="card-footer-item">Website</a>
+              <a href="https://github.com/oxodao" class="card-footer-item">Github</a>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>

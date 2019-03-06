@@ -27,7 +27,7 @@ module.exports = {
             }, {
                 test: /\.scss$/,
                 use: [
-                    'style-loader',
+                    MiniCssExtractPlugin.loader,
                     "css-loader",
                     "sass-loader"
                 ]
@@ -39,8 +39,5 @@ module.exports = {
             chunkFilename: '[id].css',
             publicPath: './dist/'
         })
-    ],
-    devServer: {
-        contentBase: './dist'
-    }
+    ]
 };
